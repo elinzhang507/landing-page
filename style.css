@@ -32,6 +32,11 @@ ul {
     font-size: 18px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .header {
     padding: 20px 200px;
 }
@@ -48,10 +53,11 @@ ul {
 
 .s1-left {
     flex-direction: column;
-    gap: 5px;
+    /* gap: 20px; */
+    justify-content: space-around;
 }
 
-.s1-left, .s1-right {
+.s1-left {
     flex: 1;
 }
 
@@ -166,4 +172,14 @@ button {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+#logo {
+    width: 200px;
+    height: 35px;
+}
+
+#start-screen {
+    width: 500px;
+    height: 300px;
 }
